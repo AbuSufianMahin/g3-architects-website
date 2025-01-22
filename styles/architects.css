@@ -103,7 +103,7 @@ body{
     margin: 16px 285px 32px;
 }
 
-.explore-more-btn{
+.explore-btn-div{
     justify-content: center;
 }
 
@@ -114,9 +114,25 @@ body{
 /* media query */
 
 @media screen and (max-width:576px) {
+
+    /* navbar */
     .navbar-section{
         flex-direction: column;
         gap: 25px;
     }
     
+    /* banner */
+    .banner-title{
+        margin: 0px 25px 0px;
+        padding: 0px 5px;
+    }
+
+    .banner-description{
+        margin: 5px 95px 10px;
+    }
+
+    .explore-more-btn{
+        padding: 15px 18px;
+        font-size: .75rem;
+    }
 }
