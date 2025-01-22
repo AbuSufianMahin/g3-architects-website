@@ -114,7 +114,7 @@ main > section{
 }
 
 .nav-links{
-    gap: 50px;
+    gap: 3rem;
 }
 
 /* banner section */
@@ -150,13 +150,15 @@ main > section{
     max-width: 1440px;
     margin: 0px auto;
     align-items: center;
-    gap: 100px;
+    
+    gap:4rem;
 }
 
 .team-image-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+    
 }
 
 
@@ -168,6 +170,7 @@ main > section{
     font-size: 1rem;
     line-height: 26px;
     margin: 5px 0px 30px;
+    text-align: justify;
 }
 
 
@@ -216,13 +219,12 @@ main > section{
 @media screen and (min-width:576px) and (max-width: 992px){
 
     .nav-links{
-        gap: 10px;
+        gap: 1.5rem;
     }
-
 
     .teams-section{
         flex-direction: column;
-        
+        gap: 4rem;
     }
     .team-image-container{
         width: 100%;
