@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* *{
+*{
     margin: 0px;
     padding: 0px;
-} */
+}
 
 /* *{
     border: 1px dashed red;
@@ -51,6 +51,7 @@ body{
 .navbar-section{
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0px 100px;
 }
 
 .nav-item{
@@ -65,4 +66,19 @@ body{
 
 .nav-links{
     gap: 50px;
+}
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width:576px) {
+    .navbar-section{
+        flex-direction: column;
+        gap: 25px;
+    }
+    
 }
