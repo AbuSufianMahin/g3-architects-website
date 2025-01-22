@@ -175,6 +175,7 @@ main > section{
 
 /* media query */
 
+/* small devices */
 @media screen and (max-width:576px) {
 
     /* navbar */
@@ -209,3 +210,29 @@ main > section{
         grid-template-columns: repeat(1, 2fr);
     }
 }
+
+/* medium devices */
+
+@media screen and (min-width:576px) and (max-width: 992px){
+
+    .nav-links{
+        gap: 10px;
+    }
+
+
+    .teams-section{
+        flex-direction: column;
+        
+    }
+    .team-image-container{
+        width: 100%;
+    }
+
+    .team-image{
+        width: 100%;
+    }
+
+    .team-feature-details{
+        margin: 0px 50px;
+    }
+} 
