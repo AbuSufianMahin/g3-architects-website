@@ -14,10 +14,10 @@ body{
 } */
 
 .work-sans-font{
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* shared styles */
@@ -33,14 +33,31 @@ body{
     color: #424242;
 }
 
+.text-dark-3{
+    color: #727272;
+}
+
+
+.btn-primary{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
 /* responsive style */
 
-/* header-section */
-
-.navbar-section, .banner{
+.navbar-section, .banner-section{
     max-width: 1440px;
     margin: 0px auto;
 }
+
+/* header-section */
+
+
 
 /* navbar styles */
 
@@ -68,10 +85,31 @@ body{
     gap: 50px;
 }
 
+/* banner section */
+.banner-content{
+    margin-bottom: 50px;
+}
 
+.banner-title{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0px 290px 0px;
+    padding: 0px 70px;
+    font-weight: 700;
+}
 
+.banner-description{
+    text-align: center;
+    margin: 16px 285px 32px;
+}
 
+.explore-more-btn{
+    justify-content: center;
+}
 
+.banner-image{
+    width: 100%;
+}
 
 /* media query */
 
