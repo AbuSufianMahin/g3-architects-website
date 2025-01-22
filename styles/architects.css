@@ -60,6 +60,10 @@ body{
 
 
 /* navbar styles */
+.header-section{
+    padding: 50px 0px 30px;
+}
+
 
 .brand-name{
     font-size: 3rem;
@@ -68,7 +72,7 @@ body{
 .navbar-section{
     justify-content: space-between;
     align-items: center;
-    padding: 50px 0px 100px;
+    padding-bottom: 100px;
 }
 
 .nav-item{
@@ -93,14 +97,15 @@ body{
 .banner-title{
     font-size: 4rem;
     text-align: center;
-    margin: 0px 290px 0px;
-    padding: 0px 70px;
+    /* margin: 0px 290px 0px;
+    padding: 0px 70px; */
     font-weight: 700;
 }
 
 .banner-description{
     text-align: center;
-    margin: 16px 285px 32px;
+    max-width: 850px;
+    margin: 16px auto 32px; 
 }
 
 .explore-btn-div{
