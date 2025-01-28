@@ -237,7 +237,7 @@ main{
 /* facts section */
 .facts-section{
     max-width: 1440px;
-    margin: 130px auto;
+    margin: 130px auto 0px;
 }
 
 .facts-section-title{
@@ -357,6 +357,8 @@ footer>p{
     }
 
     .company-features-section{
+        margin-top: 50px;
+        gap: 5rem;
         flex-direction: column-reverse;
     }
 
@@ -373,13 +375,22 @@ footer>p{
         font-size: 1rem;
         font-weight: 500;
     }
+    .facts-section{
+        margin-top: 100px;
+    }
     .facts-section-description{
         margin: 0px 20px;
+        text-align: center;
     }
 
     .facts-card-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+    }
+
+    .fact-card{
+        min-width: 240px;
+        margin: auto;
     }
 
     /* .fact-card{
