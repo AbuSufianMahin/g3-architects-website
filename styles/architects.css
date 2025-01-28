@@ -13,6 +13,9 @@ body{
     border: 2px dashed green;
 } */
 
+img{
+    max-width: 100%;
+}
 
 .work-sans-font{
     font-family: "Work Sans", serif;
@@ -56,8 +59,10 @@ main{
     font-weight: 500;
 }
 /* shared styles */
+
 .display-flex{
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .light-orange-bg{
@@ -161,11 +166,6 @@ main{
 .banner-btn-div{
     justify-content: center;
 }
-
-.banner-image{
-    width: 100%;
-}
-
 /* teams section */
 .teams-section{
     max-width: 1440px;
